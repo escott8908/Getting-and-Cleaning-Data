@@ -34,7 +34,8 @@ This codebook describes what **run_analysis.R** accomplishes as well as the cont
  - **measurementMeanValues** – the mean of each variable for each activity and each subject.
 
 ## List of modified variable names
-The table below displays the relationship between the modified variable names found in **tidy_data.txt** and the original variable names found in **features.txt** and described in **features_info.txt**
+The table below displays the relationship between the modified variable names found in **tidy_data.txt** and the original variable names listed in **features.txt** and described in **features_info.txt**, both of which are found in 
+[here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 modified variable name | original variable name
 ---|---
