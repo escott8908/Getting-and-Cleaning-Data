@@ -31,7 +31,7 @@ This codebook describes what **run_analysis.R** accomplishes as well as the cont
     - STANDING
     - LAYING
  - **measurementVariables** – names of the variables that are the means of the measurement or the standard deviation of the measurement collected in the study.  A full description of these variables can be found in the file named **features_info.txt** which, in turn, can be found in the zipped file here <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
-- **measurementMeanValues** – the mean of each variable for each activity and each subject.
+ - **measurementMeanValues** – the mean of each variable for each activity and each subject.
 
 ## List of modified variable names
 The table below displays the relationship between the modified variable names found in **tidy_data.txt** and the original variable names found in **features.txt** and described in **features_info.txt**
