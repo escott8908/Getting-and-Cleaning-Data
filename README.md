@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ### Summary
-This document contains a description of how to execute **run_analysis.R**.  In summary, this script will read in the necessary files from the directory ***UCI HAR Dataset*** and 
+This document descrbes how to execute **run_analysis.R**.  In summary, this script will read in the necessary files from the directory ***UCI HAR Dataset*** of this unzipped file <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip> and 
 then output a tidy data set into a file named **tidy_data.txt**.
 
 ### Dependencies and Execution
