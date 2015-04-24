@@ -32,6 +32,10 @@ This codebook describes what **run_analysis.R** accomplishes as well as the cont
     - LAYING
  - **measurementVariables** – names of the variables that are the means of the measurement or the standard deviation of the measurement collected in the study.  A full description of these variables can be found in the file named **features_info.txt** which, in turn, can be found in the zipped file here <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
     - mean variable names extracted from raw data set
+      Raw data            | Tidy data 
+      --------------------|--------------
+      `subject`           | `subject`
+        -
         - tBodyAccmeanX: originally labeled tBodyAcc-mean()-X 
         - tBodyAccmeanY: originally labeled tBodyAcc-mean()-Y 
         - tBodyAccmeanZ: originally labeled tBodyAcc-mean()-Z 
