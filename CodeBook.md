@@ -10,8 +10,8 @@ This codebook describes what **run_analysis.R** accomplishes as well as the cont
 ## Description of **run_analysis.R**
 **run_analysis.R** is a script written in R to perform the following tasks...
 
-1. Merge the training and the test data sets from this zip file <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip> to create one data set.  
-    1. A Description of the study can be found here <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+1. Merge the training and the test data sets from [this zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to create one data set. 
+    1. A Description of the study can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 2. Extract only the measurements on the mean and standard deviation for each measurement.  
     1. If the measurement had either the word "mean" or "std" in it, then it was extracted, yielding 86 measurements.  
 3. Use descriptive activity names to name the activities in the data set stored in **acitivity_labels.txt**
@@ -30,7 +30,7 @@ This codebook describes what **run_analysis.R** accomplishes as well as the cont
     - SITTING
     - STANDING
     - LAYING
- - **measurementVariables** – names of the variables that are the means of the measurement or the standard deviation of the measurement collected in the study.  A full description of these variables can be found in the file named **features_info.txt** which, in turn, can be found in the zipped file here <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+ - **measurementVariables** – names of the variables that are the means of the measurement or the standard deviation of the measurement collected in the study.  A full description of these variables can be found in the file named **features_info.txt** which, in turn, can be found in the zipped file [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
  - **measurementMeanValues** – the mean of each variable for each activity and each subject.
 
 ## List of modified variable names
