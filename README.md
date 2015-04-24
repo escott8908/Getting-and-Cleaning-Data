@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ### Summary
-This document descrbes how to execute **run_analysis.R**.  In summary, this script will read in the necessary files from the directory ***UCI HAR Dataset*** of this unzipped file <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip> and 
+This document descrbes how to execute **run_analysis.R**.  In summary, this script will read in the necessary files from the directory ***UCI HAR Dataset*** of [this unzipped file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and 
 then outputs a tidy data set into a file named **tidy_data.txt**.
 
 ### Dependencies and Execution
@@ -14,7 +14,7 @@ then outputs a tidy data set into a file named **tidy_data.txt**.
 ```
 install.packages(c("dplyr", "reshape2"))
 ```
-- The data needed for **run_annalysis.R** can be downloaded from here <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>.  Please download this zipped file and unzip it.  It can be unzipped in R with the following command.
+- The data needed for **run_annalysis.R** can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  Please download this zipped file and unzip it.  It can be unzipped in R with the following command.
 ```
 unzip("UCI HAR Dataset.zip")
 ```
@@ -31,8 +31,8 @@ tidy_data <- read.csv("tidy_data.txt")
 ### References
 README - this file
 
-CodeBook <http://www.github.com/escott8908>
+[CodeBook] (https://github.com/escott8908/Getting-and-Cleaning-Data/blob/master/CodeBook.md)
 
-description of experiment here <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+[Description of study here] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-download data here <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+[Download data here] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
